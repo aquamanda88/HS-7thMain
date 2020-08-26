@@ -1,0 +1,156 @@
+body{
+    font-family: 'PT Serif', serif, 'Noto Sans TC', sans-serif;
+    text-align: left;
+}
+li{
+    list-style: none;
+}
+.slogan{
+    padding: 0;
+    position: relative;
+    padding-top: 295px;
+    background: no-repeat center url(../../img/banner.png);
+    background-size: cover;
+    height: 870px;
+    .elements{
+        width: 445px;
+        padding: 20px;     
+        color: #fff;
+        .btn{
+            font-size: 24px;
+            color: #fff;
+            border: solid 1px #fff;
+            padding: 5px 90px;
+            border-radius: 20px;
+        }
+        .btn:hover{
+            filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5))
+        }
+    }
+}
+.keyVision{
+    margin-top: 60px;
+}
+.flagship .col-lg-6{
+    padding: 0;
+}
+.flagship-item{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    .flagship-itemText{
+        width: 350px;
+        ul h2{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 36px;
+        }
+    }
+    .btn{
+        color: #000;
+        border: solid 2px #000;
+        padding: 18px 53px;
+        border-radius: 50px;
+    }
+    .btn:hover{
+        filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5))
+    }
+}
+.featuredBlock{
+    background: $light;
+}
+.featured{
+    background: $light;
+    padding: 40px;
+    padding-right: 0;
+    justify-content: space-around;
+    position: relative;
+    .featured-item{
+        img{
+            margin-bottom: 8px;
+        }
+        h3{
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+    .soldOut{
+        position: absolute;
+        top: 0px;
+    }
+    .soldOut-text{
+        position: absolute;
+        text-align: center;
+        width: 160px;
+        height: 36px;
+        top: 252px;
+        bottom: 252px;
+        left: 95px;
+        right: 95px;
+        color: white;
+        font-size: 24px;
+    }
+}
+.afterSales{
+    margin-bottom: 60px;
+    .col-lg-8{
+        margin-right: 30px;
+    }
+    .col-lg-4{
+        margin: auto 0;
+        h2{
+            font-weight: bold;
+        }
+    }
+}
+i{
+    padding: 10px 8px;
+}
+.gotopBtn{
+    position: fixed;
+    border-radius: 100%;
+    border: 1px solid $lightDark;
+    right: 10px;
+    bottom: 10px;        
+    font-size: 20px;
+    background: $lightDark;
+    color: white;
+}
+.gotopBtn:hover{
+    border: 1px solid $dark;
+    background: $dark;
+}
+
+@media (max-width: 768px){
+    .navbarList-phone li{
+        position: relative;
+        .countItems-phone{
+            position: absolute;
+            text-align: center;
+            font-size: 5px;
+            border-radius: 50%;
+            background-color: #916000;
+            color: #FFF;
+            width: 15px;
+            height: 15px;
+            left: 25px;
+            top: 13px;
+        }
+    }
+    .slogan{
+        padding: 0;
+        position: relative;
+        background: no-repeat center url(../../img/banner-sm.png);
+        background-size: cover;
+        height: 480px;
+        .elements{
+            padding-top: 101px;     
+        }
+    }
+    .featured{
+        .soldOut-text{
+            position: absolute;
+            top: 157px;
+        }
+    }
+}

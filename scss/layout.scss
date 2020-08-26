@@ -1,0 +1,114 @@
+body{
+    font-family: 'PT Serif', serif, 'Noto Sans TC', sans-serif;
+    text-align: center;
+}
+a{
+    list-style: none;
+}
+img{
+    display: block;
+}
+.header{
+    .brandLogo a{
+        background-image: url(../img/logo.png);
+        display: block;
+        width: 128px; 
+        height: 38px;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .brandLogo, .navbar{
+        margin: 0;
+    }
+    .container-fluid{
+        background: $primary;
+    }
+    .navbar{
+        display: block;
+        padding-right: 0;
+        .spacing{
+            margin-right: 32px;
+        }
+    }
+    .countItems-phone{
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+}
+
+.menubar{
+    background: $primary;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        color: white;
+        margin-right: 28px;
+    }
+}
+
+.footer{
+    .container-fluid{
+        background: $primary;
+    }
+}
+.footer-subscribe{
+    background: no-repeat center url(../img/footer.png);
+    background-size: cover;
+    height: 600px;
+}
+.footer-block{
+    padding: 0;
+    position: relative;
+    .infoTitle{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .mainBlock{
+        padding-top: 312px;
+    }
+    .form-control{
+        border: solid 3px $primary;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .form-control{
+        padding-top: 21px;
+        padding-bottom: 20px;
+    }
+    .btn{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 11px 26px 10px 27px;
+    }
+}
+.copyrightText{
+    font-size: 14px;
+    text-align: right;
+}
+.linkbar{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+@media (max-width: 375px){
+    .navbar{
+        display: none;
+    }
+    .footer-subscribe{
+        background: no-repeat center url(../img/footer-sm.png);
+        background-size: cover;
+        height: 600px;
+    }
+    .linkbar{
+        .linkbar-links{
+            display: none;
+        }
+    }
+}

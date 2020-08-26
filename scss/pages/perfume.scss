@@ -1,0 +1,30 @@
+.picLast{
+    margin-top: 30px;
+}
+.knowing{
+    .description{
+        margin-bottom: 32px;
+    }
+    .price{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .returnNotice{
+        margin-top: 20px;
+    }
+}
+.addCollect{
+    a{
+        margin-bottom: 40px;
+        color: black;
+    }
+}
+.custom-select{
+    border: 1px solid $primary;
+}
+.perchaseNotice, .returnNotice{
+    font-size: 16px;
+}
+.return-details, .productDetail-pic{
+    margin-bottom: 40px;
+}

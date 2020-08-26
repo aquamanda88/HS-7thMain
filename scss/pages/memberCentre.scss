@@ -1,0 +1,98 @@
+.linecolorPC{
+    border: solid 1px $primary;
+}
+.functionList{
+    font-weight: bold;
+    a{
+        color: $dark;
+        line-height: 24px;
+    }
+    .editProfile{
+        border-bottom: solid 2px $primary;
+    }
+    a:hover{
+        text-decoration: none;
+        border-bottom: solid 2px $primary;
+    }
+}
+.memberCentre{
+    font-size: 20px;
+}
+.remark{
+    font-size: 14px;
+}
+.shopping{
+    margin-right: 47px;
+}
+.myCollect, .bonus{
+    margin-right: 31px;
+}
+.orders, .coupon{
+    margin-right: 15px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+label{
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  
+    input{
+      cursor: pointer;
+    }
+  
+    input:checked + .box{
+      background: $primary;
+    }
+  
+    .box{
+        position: absolute;
+        top: 3px;
+        left: -20px;
+        width: 16px;
+        height: 16px;
+        border-radius: 2px;
+        border: 1px solid #d8d8d8;
+        background: white; 
+
+        &:before{
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 6px;
+        width: 3px;
+        height: 8px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        }
+    }
+}
+.functionListMB{
+    margin-bottom: 40px;
+    a{
+        color: $dark;
+        line-height: 24px;
+    }
+    .editProfile{
+        border-bottom: solid 2px $primary;
+    }
+    a:hover{
+        text-decoration: none;
+        border-bottom: solid 2px $primary;
+    }
+    .functionList-item {
+        margin-right: 43px;
+    }
+}
+.remarkMB{
+    margin-bottom: 40px;
+}
+.linecolorMB{
+    border: solid 1px $dark;
+}
+.doubleCheck{
+    font-size: 14px;
+}

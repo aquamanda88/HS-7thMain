@@ -1,0 +1,33 @@
+.card-list{
+    margin-top: 92px;
+    padding-left: 0;
+    h2, p{
+        margin: 0;
+    }
+    a{
+        color: black;
+    }
+}
+.icons a{
+    margin-right: 10.05px;
+}
+.page-link{
+    font-weight: bold;
+    color: black;
+}
+.pageNative{
+    color: $primary;
+    text-decoration: underline;
+}
+.pageNative:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px){
+    .card-list{
+        width: 345px;
+        h2{
+            font-size: 20px;
+        }
+    }
+}
