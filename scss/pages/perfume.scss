@@ -28,3 +28,14 @@
 .return-details, .productDetail-pic{
     margin-bottom: 40px;
 }
+.input-group-append{
+    button{
+        border-top-right-radius: 2px !important;
+        border-bottom-right-radius: 2px !important;
+    }
+}
+.modal-body h5{
+    color: $primary;
+    text-align: center;
+    font-weight: bold;
+}
