@@ -97,6 +97,25 @@ img{
     position: relative;
 }
 
+@media (max-width: 768px){
+    .active-menu{
+        background-color: #848484;
+        .navbar a li{
+            color: #fff;
+            margin-top: 1px;
+            text-align: center;
+        }
+        .navbar span{
+            width: 375px;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: bold;
+        }
+        .navbar .b-line{
+            border-bottom: solid 1px #fff;
+        }
+    }
+}
+
 @media (max-width: 375px){
     .navbar{
         display: none;
