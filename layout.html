@@ -10,13 +10,13 @@
     <script src="js/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <div class="header d-flex flex-column">
+    <div class="header d-flex flex-column mb-8">
         <div class="container py-1 py-md-0">
             <div class="row">
                 <div class="col-5 col-md-3">
                     <h1 class="brandLogo pt-1"><a href="index.html">LOGO品牌識別</a></h1>
                 </div>
-                <div class="col-5 offset-2 d-block d-md-none pr-0">
+                <div class="col-5 offset-2 d-block d-lg-none pr-0">
                     <ul class="navbarList-phone d-flex m-0 p-0">
                         <li class="col-6">
                             <a class="link" href="#">
@@ -24,22 +24,24 @@
                                 <p class="countItems-phone">3</p>
                             </a>
                         </li>
-                        <li class="col-6 pr-2 py-2">
+                        <li class="burger-icon col-6 pr-2 py-2">
                             <img src="img/burger.svg" alt="burger-icon">
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 offset-md-3 col-lg-5 offset-lg-4 d-none d-md-block active-menu">
-                    <ul class="navbar d-flex">
-                        <a href="products.html" class="text-dark mr-lg-7"><li class="d-flex"><img class="mr-1" src="img/tshirt.svg" alt="">Products</li></a>
-                        <a href="login.html" class="text-dark mr-lg-7"><li class="d-flex"><img class="mr-1" src="img/user-alt.svg" alt="">log in</li></a>
-                        <a href="#" class="text-dark mr-lg-7"><li class="d-flex"><img class="mr-1" src="img/heart.svg" alt="" width="18px">Wishlist</li></a>
-                        <a href="#" class="text-dark"><li class="d-flex"><img class="mr-1" src="img/shopping-cart.svg" alt="">Cart(3)</li></a>
+                <div class="active-menu col-md-6 offset-md-3 col-lg-5 offset-lg-4 d-none d-lg-block p-0">
+                    <ul class="navbar d-flex flex-column flex-lg-row p-0 p-md-4">
+                        <a href="products.html" class="text-dark py-lg-0"><li class="d-block d-flex"><img class="mr-1 d-none d-lg-block" src="img/tshirt.svg" alt=""><span class="b-line d-block py-2">Products</span></li></a>
+                        <a href="login.html" class="text-dark py-lg-0"><li class="d-flex"><img class="mr-1 d-none d-lg-block" src="img/user-alt.svg" alt=""><span class="b-line d-block py-2">log in</span></li></a>
+                        <a href="#" class="text-dark py-lg-0"><li class="d-flex"><img class="mr-1 d-none d-lg-block" src="img/heart.svg" alt="" width="18px"><span class="b-line d-block py-2">Wishlist</span></li></a>
+                        <a href="#" class="text-dark d-none d-lg-block"><li class="d-flex"><img class="mr-1" src="img/shopping-cart.svg" alt=""><span class="d-block">Cart(3)</span></li></a>
+                        <a href="#" class="py-lg-0 d-block d-lg-none"><li class="d-flex"><span class="b-line d-block py-2">Blog</span></li></a>
+                        <a href="#" class="py-lg-0 d-block d-lg-none"><li class="d-flex"><span class="d-block py-2">Contant</span></li></a>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-md-block">
             <div class="row">
                 <div class="container">
                     <div class="row">
