@@ -12,3 +12,11 @@ $(function(){
       }
   });
 });
+
+$(document).ready(function (){
+    $('.burger-icon').click(function (){
+        //$('.active-menu').toggleClass('transition')
+        $('.active-menu').toggleClass('d-block')
+        
+    })
+})
