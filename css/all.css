@@ -12581,6 +12581,25 @@ img {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .active-menu {
+    background-color: #848484;
+  }
+  .active-menu .navbar a li {
+    color: #fff;
+    margin-top: 1px;
+    text-align: center;
+  }
+  .active-menu .navbar span {
+    width: 375px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+  }
+  .active-menu .navbar .b-line {
+    border-bottom: solid 1px #fff;
+  }
+}
+
 @media (max-width: 375px) {
   .navbar {
     display: none;
@@ -12852,6 +12871,17 @@ i {
 
 .return-details, .productDetail-pic {
   margin-bottom: 40px;
+}
+
+.input-group-append button {
+  border-top-right-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+}
+
+.modal-body h5 {
+  color: #916000;
+  text-align: center;
+  font-weight: bold;
 }
 
 .card-list {
